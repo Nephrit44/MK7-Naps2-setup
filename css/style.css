@@ -29,6 +29,10 @@ body {
   min-height: 100vh;
 }
 
+.container {
+    max-width: 600px;
+}
+
 .header {
   position: relative;
   display: flex;
