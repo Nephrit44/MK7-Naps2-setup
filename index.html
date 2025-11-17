@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,19 +11,31 @@
     <title>MK7-Wiki</title>
 </head>
 
-<body>
+<body class="flexbox">
     <article class="card container">
         <h3 class="card__title">шаг 1</h3>
-        <img class="card__img" src="" alt="">
-        <p class="card__note">Перейти на страницку <a href="https://www.naps2.com/">naps2.com</a></p>
-        <p></p>
+        <img class="card__img" src="./images/img_001.webp" alt="">
+        <p class="card__note">Перейти на страницку <a href="https://www.naps2.com/" target="_blank">naps2.com</a></p>
         <code class="card__code">
             su admin
-        </сode>
-        <code class="card__code">
-            sudo dnf search install
         </code>
+        <p class="card__note"> Ввести свой лоин и пароль от администраторского учётной записи</p>
+        <code class="card__code">
+            sudo dnf search naps2
+        </code>
+    </article>
 
+    <article class="card container">
+        <h3 class="card__title">шаг 2</h3>
+        <img class="card__img" src="" alt="">
+
+        <code class="card__code">
+            su admin
+        </code>
+        <p class="card__note"> Ввести свой лоин и пароль от администраторского учётной записи</p>
+        <code class="card__code">
+            sudo dnf search naps2
+        </code>
     </article>
 </body>
 
