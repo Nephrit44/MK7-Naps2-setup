@@ -73,10 +73,18 @@ body {
 }
 
 .card__code {
+    position: relative;
     background-color: #bfbfbf;
     border-radius: 5px;
     padding: 10px 5px 10px 20px;
     color: #3d3d3d;
     font-style: italic;
     font-size: 14px;
+}
+
+.card__code::before {
+    position: absolute;
+    content: "$: ";
+    inset: 0;
+    color: #08007c;
 }
