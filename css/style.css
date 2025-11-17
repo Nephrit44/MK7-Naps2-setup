@@ -41,8 +41,7 @@ body {
 }
 
 .card {
-    background-color: #3d3d3d;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -53,10 +52,10 @@ body {
     font-family: var(--mainFont);
     font-size: 16px;
     font-weight: 700;
-    background-color: beige;
+    background-color: #2d935787;
     border-radius: 5px;
     padding: 5px;
-    color: rgb(89, 90, 43);
+    color: #fff;
 }
 
 .card__img {
@@ -74,9 +73,9 @@ body {
 }
 
 .card__code {
-    background-color: #e2e2e2;
+    background-color: #bfbfbf;
     border-radius: 5px;
-    padding: 10px 5px;
+    padding: 10px 5px 10px 20px;
     color: #3d3d3d;
     font-style: italic;
     font-size: 14px;
