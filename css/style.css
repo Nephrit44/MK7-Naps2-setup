@@ -59,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .card__title {
