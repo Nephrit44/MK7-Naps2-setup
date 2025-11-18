@@ -33,6 +33,7 @@ body {
 
 .container {
     max-width: 100%;
+    min-height: 1000px;
 }
 
 .section-title {
@@ -80,7 +81,6 @@ body {
 }
 
 .card__note {
-    background-color: beige;
     border-radius: 5px;
     padding: 10px 5px;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .commit {
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     color: rgb(0, 85, 0);
 }
