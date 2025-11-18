@@ -12,7 +12,7 @@
 </head>
 
 <body class="flexbox">
-
+    <h2 class="section-title container">Установка с помощью графического интерфейса</h2>
     <article class="card container">
         <h3 class="card__title">шаг 1</h3>
         <img class="card__img" src="./images/img_001.webp" alt="">
@@ -98,6 +98,126 @@
 
         <p class="card__note">Пример того, как выглядит подключенный сканер.
         </p>
+    </article>
+
+    <!--Инструкция по консольной установке-->
+
+    <h2 class="section-title container">Установка с помощью консоли.</h2>
+    <article class="card container">
+        <h3 class="card__title">шаг 1</h3>
+        <img class="card__img" src="./images/KB_Eng-Rus_QWERTY.svg" alt="">
+
+        <p class="card__note">Вызовите консоль с помощью комбинации клавиш клавиатуры
+        </p>
+
+        <code class="card__code">
+            ctrl + alt + t
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 2</h3>
+        <img class="card__img" src="./images/img_102.webp" alt="">
+
+        <p class="card__note">В консоли перейдите под учётную запись администратора
+        </p>
+
+        <code class="card__code">
+            su admin <span class="commit">//admin - это имя учётной записи администратора. 
+                У Вас она может отличаться от примера.</span>
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 3</h3>
+        <img class="card__img" src="./images/img_103.webp" alt="">
+
+        <p class="card__note">Для поиска приложения наберите команду.
+        </p>
+
+        <code class="card__code">
+            sudo dnf search naps2
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 4</h3>
+        <img class="card__img" src="./images/img_104.webp" alt="">
+
+        <p class="card__note">Результатом поиска будет выведено название программы naps2.x86_64
+            <br>
+            Необходимо произвести установку этого приложения.
+        </p>
+
+        <code class="card__code">
+            sudo dnf install naps2.x86_64 <span class="commit">//sudo dnf -y install naps2.x86_64, с ключём 
+                -y программа не будет задавать вопросов и просто установит приложение</span>
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 5</h3>
+        <img class="card__img" src="./images/img_006.webp" alt="">
+
+        <p class="card__note">Установленное приложение можно найти:
+            <br>
+            1. Нажать на кнопку Пуск
+            <br>
+            2. Выбрать раздел Офис
+            <br>
+            3. Выбрать приложение Naps2
+        </p>
+
+    </article>
+
+    <!--Инструкция по удалению приложения-->
+
+    <h2 class="section-title container">Удаление приложения с помощью консоли.</h2>
+    <article class="card container">
+        <h3 class="card__title">шаг 1</h3>
+        <img class="card__img" src="./images/KB_Eng-Rus_QWERTY.svg" alt="">
+
+        <p class="card__note">Вызовите консоль с помощью комбинации клавиш клавиатуры
+        </p>
+
+        <code class="card__code">
+            ctrl + alt + t
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 2</h3>
+        <img class="card__img" src="./images/img_102.webp" alt="">
+
+        <p class="card__note">В консоли перейдите под учётную запись администратора
+        </p>
+
+        <code class="card__code">
+            su admin <span class="commit">//admin - это имя учётной записи администратора. 
+                У Вас она может отличаться от примера.</span>
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 3</h3>
+        <img class="card__img" src="./images/img_201.webp" alt="">
+
+        <p class="card__note">Наберите команду и выполните её нажав кнопку Enter
+        </p>
+
+        <code class="card__code">
+            sudo dnf remove naps <span class="commit">//После слова naps нажмите кнопку TAB. 
+                Терминал автоматически допишет название приложения (как на картинке)</span>
+        </code>
+    </article>
+
+    <article class="card container">
+        <h3 class="card__title">шаг 4</h3>
+        <img class="card__img" src="./images/img_202.webp" alt="">
+
+        <p class="card__note">Пример успешно удалённого приложения.
+        </p>
+
     </article>
 </body>
 
